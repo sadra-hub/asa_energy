@@ -28,6 +28,12 @@ font & reset css
 --------------------------------------------- 
 */
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
+
+@font-face {
+  font-family: "vazir";
+  src: url(fonts/Vazir.woff) format('woff');
+}
+
 /* 
 ---------------------------------------------
 reset
@@ -113,7 +119,7 @@ body {
 }
 
 ::selection {
-  background: #ff589e;
+  background: #b02b30;
   color: #fff;
 }
 
@@ -311,10 +317,10 @@ body {
 }
 
 a.main-button-slider {
-  font-size: 13px;
+  font-size: 15px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #ff589e;
+  background-color: #b02b30;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -322,17 +328,18 @@ a.main-button-slider {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  font-family: "vazir";
 }
 
 a.main-button-slider:hover {
-  background-color: #8261ee;
+  background-color: #5b5351;
 }
 
 a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #b02b30;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -343,7 +350,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #ff589e;
+  background-color: #5b5351;
 }
 
 button.main-button {
@@ -353,7 +360,7 @@ button.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #b02b30;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -364,7 +371,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #ff589e;
+  background-color: #5b5351;
 }
 
 
@@ -421,6 +428,7 @@ header
   transition: all 0.3s ease 0s;
   position: relative;
   z-index: 999;
+  font-family: "vazir";
 }
 
 .header-area .main-nav .nav li {
@@ -448,7 +456,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #ff589e;
+  color: #b02b30;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -560,7 +568,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff589e;
+  color: #b02b30;
 }
 
 @media (max-width: 1200px) {
@@ -666,6 +674,7 @@ welcome
   letter-spacing: 1.4px;
   margin-bottom: 30px;
   color: #fff;
+  font-family: "vazir";
 }
 
 .welcome-area .header-text p {
@@ -676,6 +685,8 @@ welcome
   letter-spacing: 0.25px;
   margin-bottom: 40px;
   position: relative;
+  font-family: "vazir";
+  direction: rtl;
 }
 
 @media (max-width: 991px) {
@@ -783,7 +794,7 @@ features
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #8261ee;
+  background: #b02b30;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -1175,7 +1186,7 @@ team
   display: block;
   font-weight: 400;
   font-size: 15px;
-  color: #ff589e;
+  color: #b02b30;
   letter-spacing: 0.25px;
 }
 
@@ -1214,7 +1225,7 @@ pricing
 }
 
 .pricing-item.active .pricing-body .price-wrapper {
-  background-color: #ff589e;
+  background-color: #b02b30;
 }
 
 .pricing-item.active .pricing-body .price-wrapper .currency {
@@ -1257,7 +1268,7 @@ pricing
   text-align: center;
   padding-top: 20px;
   padding-bottom: 13px;
-  background: #8261ee;
+  background: #423f40;
   width: 80%;
   margin: auto;
   margin-bottom: 40px;
@@ -1442,7 +1453,7 @@ footer
 --------------------------------------------- 
 */
 footer {
-  background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+  background-image: linear-gradient(127deg, #b02b30 0%, #5b5351 91%);
   padding-top: 30px;
 }
 
@@ -1458,8 +1469,8 @@ footer .social li {
 }
 
 footer .social li a {
-  color: #9d5bd9;
-   text-align: center;
+  color: #b02b30;
+  text-align: center;
   background-color: #fff;
   width: 36px;
   height: 36px;
